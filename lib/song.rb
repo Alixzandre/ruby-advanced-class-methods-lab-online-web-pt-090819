@@ -56,8 +56,8 @@ class Song
     song
   end
   
-  def
-    
+  def self.cre
+    result = self.new_from_filename(filename)
   end
   
   def self.destroy_all
