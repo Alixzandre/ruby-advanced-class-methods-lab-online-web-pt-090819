@@ -43,7 +43,7 @@ class Song
   end
   
   def self.alphabetical
-    
+    sort_by { |word| word.length }
   end
   
   
