@@ -22,8 +22,10 @@ class Song
     song
   end
   
-  def
-    
+  def self
+    song = self.create
+    song.name = title
+    song
   end
   
 end
