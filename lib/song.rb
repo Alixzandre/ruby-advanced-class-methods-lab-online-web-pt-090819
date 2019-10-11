@@ -29,7 +29,8 @@ class Song
   end
   
   def 
-    
+    result = self.all.detect {|song| song.name == title}
+    result
   end
   
 end
