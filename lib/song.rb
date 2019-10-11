@@ -43,7 +43,8 @@ class Song
   end
   
   def self.alphabetical
-    sort_by { |word| word.length }
+    alpha =self.sort_by { |word| word.length }
+    alpha
   end
   
   
